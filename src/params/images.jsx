@@ -4,7 +4,7 @@ import glassImg from '../assets/glass.png'
 import logImg from '../assets/log.jpg'
 import woodImg from '../assets/wood.png'
 
-export const images = {
+export {
     dirtImg,
     grassImg,
     glassImg,
