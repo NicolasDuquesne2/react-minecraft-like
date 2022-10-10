@@ -24,7 +24,11 @@ export const useStore = create((set) => ({
                 return (X !== x || Y !== y || Z !== z)
             })
     }))},
-    setTexture: () => {},
+    setTexture: (texture) => {
+        set(() => ({
+            texture
+        }))
+    },
     saveWord: () => {},
     resetWord: () => {},
 }))
